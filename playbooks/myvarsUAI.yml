@@ -2,8 +2,8 @@
 - hosts: webservers
   become: yes
   vars: 
-    myvar1: ravi
-    myvar2: naresh
+    myvar1: shiva
+    myvar2: shankar
   tasks:
   - name:  display myvar1
     debug:
